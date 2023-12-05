@@ -1,0 +1,11 @@
+{
+   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+   "parser": "@babel/eslint-parser",
+   "requireConfigFile": false,
+   "ignorePatterns": ["node_modules/"],
+   "parserOptions": {
+     "sourceType": "module"
+   },
+   "rules": {}
+ }
+ 

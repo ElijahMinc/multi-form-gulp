@@ -1,0 +1,47 @@
+@import 'libs/int-tel';
+@import 'libs/virtual-select';
+
+@import 'variables';
+@import 'form';
+@import 'infromation-stepper';
+
+@import 'components/buttons';
+@import 'components/checkbox';
+@import 'components/spinner';
+
+html,
+body {
+  height: 100%;
+  font-family: 'Belanosima', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form {
+}
